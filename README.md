@@ -43,7 +43,7 @@ Nodemon
 1. Criando uma API Rest com Express e MongoDB:<br>
     - Como criar rotas em uma API, se conectar, acessar rotas e de que forma as rotas são utilizadas dentro da lógica de uma *API REST*.<br><br>
     - Como implementar um *CRUD* inicial com os métodos HTTP GET, POST, PUT e DELETE, e como utilizar os métodos do *Express* para cada método.<br><br>
-    - Como testar requisições com `Postman` e quais são as partes de uma requisição HTTP.<br><br>
+    - Como testar requisições com `Postman` e quais são as partes de uma requisição HTTP.<br>
     [![My Skills](https://skillicons.dev/icons?i=postman)](https://skillicons.dev)
     - Como utilizar uma instância gratuita de um banco `MongoDB` na nuvem através do serviço `Mongo Atlas` e conectar a instância com a API.<br><br>
     - Os conceitos de `model` e `schema` e qual a função de cada na construção de uma API.<br><br>
