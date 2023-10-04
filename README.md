@@ -11,7 +11,7 @@ Foi implementado Segurança utilizando Token JWT e Bcrypt para encriptando de se
 ## 🔨 Tecnologias utilizadas:
 <br>
 <div align="center">
-  <img src="https://github.com/EnzowMb/Register-PC/assets/89809584/ec9bb191-896b-45cf-bf16-093a0983f2e3" width="50px"><br>NodeJS<br><br>
+  <img src="https://media0.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.gif?cid=6c09b952dhwk9bqgz0bqz22reneg02ieh74gta1xqkvera4t&ep=v1_stickers_related&rid=giphy.gif&ct=s" width="80px"><br>NodeJS<br><br>
 </div>
 
 Banco de dados:
