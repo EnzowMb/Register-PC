@@ -8,7 +8,7 @@ API construida para um projeto de gerenciamento de computadores, permitindo real
 Foi implementado Segurança utilizando Token JWT e Bcrypt para encriptando de senhas.<br><br>
 <strong>O objetivo de desde projeto é ampliar os meus conhecimentos em NodeJS e suas dependências.</strong>
 
-## Tecnologias utilizadas:
+## 🔨 Tecnologias utilizadas:
 
 NodeJS<br>
 Dependências:
@@ -24,7 +24,7 @@ Nodemon
 
 MongoDB
 
-## Conhecimentos Adquiridos:
+## 🤓 Conhecimentos Adquiridos:
 
 Como criar rotas em uma API, como se conectar e acessar rotas e de que forma as rotas são utilizadas dentro da lógica de uma API REST.<br><br>
 Como implementar um CRUD inicial com os métodos HTTP GET, POST, PUT e DELETE, e como utilizar os métodos do Express para cada método.<br><br>
@@ -36,5 +36,5 @@ A evoluir as funcionalidades de uma API, unindo diferentes entidades e como func
 Como realizar buscas em API via parâmetros de query.<br><br>
 
 
-## Autor
+## 👥 Autor
   - **Enzo Martinelli**
