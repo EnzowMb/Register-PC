@@ -9,20 +9,29 @@ Foi implementado Segurança utilizando Token JWT e Bcrypt para encriptando de se
 <strong>O objetivo de desde projeto é ampliar os meus conhecimentos em NodeJS e suas dependências.</strong>
 
 ## 🔨 Tecnologias utilizadas:
+<br>
+<div align="center">
+  <img src="https://github.com/EnzowMb/Register-PC/assets/89809584/ec9bb191-896b-45cf-bf16-093a0983f2e3" width="50px"><br>NodeJS<br><br>
+</div>
 
-NodeJS<br>
+Banco de dados:
+```bash 
+MongoDB
+```
+
 Dependências:
+```bash 
 Express
 Bcrypt
 JsonWebToken
 Dotenv
 Mongoose
-
+```
 Dependências Dev:
+```bash 
 EsLint
 Nodemon
-
-MongoDB
+```
 
 ## 🤓 Conhecimentos Adquiridos:
 
