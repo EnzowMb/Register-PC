@@ -13,7 +13,7 @@ export class RoleController {
     }
   };
 
-  static getRolePorId = async (req, res, next) => {
+  static listarRolePorId = async (req, res, next) => {
     try {
       const id = req.params.id;
 
