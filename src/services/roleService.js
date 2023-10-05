@@ -2,34 +2,36 @@ import { roles } from "../models/index.js";
 
 export class roleService {
   static getRole = async () => {
-    return roles.find();
+    return await roles.find();
   };
 
   static getRoleById = async (id) => {
-    return roles.findById(id);
+    return await roles.findById(id);
   };
 
   static createRole = async (dto) => {
-    const roleExist = roles.findOne({
+    const roleExist = await roles.findOne({
       nome: dto.nome,
     });
+
+    console.log(roleExist);
 
     if (roleExist) {
       return null;
     }
 
-    let role = new roles(dto);
+    let role = await new roles(dto);
 
     return role.save();
   };
 
   static updateRole = async (dto, id) => {
-    return roles.findByIdAndUpdate(id, {
+    return await roles.findByIdAndUpdate(id, {
       $set: dto,
     });
   };
 
   static deleteRole = async (id) => {
-    return roles.findByIdAndDelete(id);
+    return await roles.findByIdAndDelete(id);
   };
 }
