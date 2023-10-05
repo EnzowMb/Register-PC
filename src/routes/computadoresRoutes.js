@@ -1,8 +1,11 @@
 import express from "express";
 import { ComputadorController } from "../controllers/computadoresController.js";
 import { paginar } from "../middlewares/paginar.js";
+import { auth } from "../middlewares/auth.js";
 
 const router = express.Router();
+
+router.use(auth);
 
 router
   .get("/computadores", ComputadorController.listarComputadores, paginar)
