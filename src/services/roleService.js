@@ -10,6 +10,14 @@ export class roleService {
   };
 
   static createRole = async (dto) => {
+    const roleExist = roles.findOne({
+      nome: dto.nome,
+    });
+
+    if (roleExist) {
+      return null;
+    }
+
     let role = new roles(dto);
 
     return role.save();
