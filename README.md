@@ -38,6 +38,32 @@ EsLint
 Nodemon
 ```
 
+### 🤖 Pré-requisitos
+
+Requisitos para o software e outras ferramentas para desenvolver e testar.
+- Node;
+- Postman
+- MongoDB
+
+[![My Skills](https://skillicons.dev/icons?i=mysql,java,postman,spring)](https://skillicons.dev)
+
+### 🎲 Instalando e executando
+```bash 
+# Clonar este repositório
+$ git 
+
+#Exportando o projeto
+- Exporte o projeto como maven project na sua IDE de preferencia.
+
+# Configurando as credenciais
+
+-Altere as configurações em application.properties com a url, username e password de sua preferência.
+
+Exemplo
+
+
+```
+
 ## 🤓 Conhecimentos Adquiridos:
 
 1. Criando uma API Rest com Express e MongoDB:<br>
