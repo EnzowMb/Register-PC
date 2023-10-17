@@ -4,12 +4,12 @@ const usuariosRoles = new mongoose.Schema({
   id: { type: String },
   usuario_id: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: "usuarioSchema",
+    ref: "usuario",
     required: [true, "O id do usuario é obrigatorio"],
   },
   role_id: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: "rolesSchema",
+    ref: "roles",
     required: [true, "O id da role é obrigatoria"],
   },
 });
