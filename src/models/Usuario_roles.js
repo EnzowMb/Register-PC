@@ -1,7 +1,6 @@
 import mongoose from "mongoose";
 
 const usuariosRoles = new mongoose.Schema({
-  id: { type: String },
   usuario_id: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "usuario",
